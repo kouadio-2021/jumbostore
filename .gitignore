@@ -1,0 +1,27 @@
+# Environnements virtuels Python
+backend/venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Variables d'environnement et secrets — NE JAMAIS COMMITER
+.env
+**/.env
+backend/.env
+
+# Base de données locale
+backend/app/data/*.db
+backend/app/data/documents_entreprise/
+backend/app/data/documents_generes/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+**/node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
